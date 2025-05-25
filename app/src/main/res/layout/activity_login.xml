@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFD4DC
+    android:background="#1877F2
 "
     android:padding="24dp">
 
@@ -17,9 +17,9 @@
         android:textSize="28sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium"
-        android:textColor="#FF93AC
+        android:textColor="#FFFFFF
 "
-        android:drawableStart="@drawable/baseline_login_24"
+
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="32dp" />
 
@@ -30,10 +30,11 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:padding="12dp"
+        android:drawableStart="@drawable/baseline_account_circle_24"
         android:textColor="#000000"
-        android:textColorHint="#FFFFFF"
+        android:textColorHint="#1877F2"
         android:fontFamily="sans-serif"
-        android:background="#FC3468
+        android:background="#FFFFFF
 " />
 
     <EditText
@@ -44,39 +45,36 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="12dp"
+        android:drawableStart="@drawable/baseline_aod_24"
         android:textColor="#000000"
-        android:textColorHint="#FFFFFF"
+        android:textColorHint="#1877F2"
         android:fontFamily="sans-serif"
-        android:background="#FC3468" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_gravity="center"
-        android:background="@drawable/orange_button_background"
-        android:fontFamily="sans-serif-medium"
-        android:padding="12dp"
-        android:text="LOGIN"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF" />
-
+        android:background="#FFFFFF" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnToRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DAFTAR AKUN"
-        android:textAllCaps="true"
-        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-medium"
+        android:text="Register now"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
         android:background="@drawable/orange_button_background"
         android:fontFamily="sans-serif-medium"
         android:padding="12dp"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center" />
-
-
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textColor="#1877F2" />
 
 
 </LinearLayout>
