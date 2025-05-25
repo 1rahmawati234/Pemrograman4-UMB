@@ -67,18 +67,16 @@ Sebuah aplikasi Android sederhana yang memungkinkan pengguna untuk melakukan reg
 
 ---
 ## Tampilan Login 
-![alt text](?raw=true)
+![alt text](https://github.com/1rahmawati234/Pemrograman4-UMB/blob/master/gambar/login.png?raw=true)
 ## Tampilan Register
-![alt text](?raw=true)
+![alt text](https://github.com/1rahmawati234/Pemrograman4-UMB/blob/master/gambar/register..png?raw=true)
 ## Login tidak berhasil
-![alt text](?raw=true)
+![alt text](https://github.com/1rahmawati234/Pemrograman4-UMB/blob/master/gambar/login%20gagal..png?raw=true)
 ## Password kurang dari 6 karakter
-![alt text](?raw=true)
+![alt text](https://github.com/1rahmawati234/Pemrograman4-UMB/blob/master/gambar/password%20kurang..png?raw=true)
 ## Login Berhasil
-![alt text](?raw=true)
+![alt text](https://github.com/1rahmawati234/Pemrograman4-UMB/blob/master/gambar/login%20berhasil..png?raw=true)
 
 
 
-=======
-# Pemrograman4-UMB
->>>>>>> 38ff3f20fa73f88b2a03f365d800ed6d7054c908
+
